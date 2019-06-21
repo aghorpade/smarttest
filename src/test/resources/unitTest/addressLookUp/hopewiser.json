@@ -1,0 +1,21 @@
+{
+  "scenarioName": "GIVEN- Hopewiser System API endpoint, WHEN- I invoke API, THEN- I will receive the 200 status with body",
+  "steps": [
+    {
+      "name": "get_hopewiser_api_response",
+      "url": "/",
+      "operation": "post",
+      "request": {
+        "postcode": "CR0 6SL"
+      },
+      "assertions": {
+        "status": 200,
+        "body": {
+          "login" : "octocat",
+          "id" : 583231,
+          "type" : "User"
+        }
+      }
+    }
+  ]
+}
