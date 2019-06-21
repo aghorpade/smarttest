@@ -1,2 +1,2 @@
-# smarttest
-smart test - api testing using zerocode
+# AutoTest
+Smart and Automated way of testing API.
